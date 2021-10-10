@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "first-mod",
+  "version": "${version}",
+  "name": "First Mod",
+  "description": "My first fabric mod.",
+  "authors": [
+    "zp4rker"
+  ],
+  "contact": {
+    "website": "https://github.com/zp4rker/first-mod",
+    "repo": "https://github.com/zp4rker/first-mod"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/first-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.zp4rker.fabric.firstmod.FirstMod"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
