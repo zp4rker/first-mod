@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "PlayerJump",
-    "PlayerAttack"
+    "PlayerAttack",
+    "CompletionSound"
   ],
   "injectors": {
     "defaultRequire": 1
