@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.zp4rker.fabric.firstmod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PlayerJump",
+    "PlayerAttack"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

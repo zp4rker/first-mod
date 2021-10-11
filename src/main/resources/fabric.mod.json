@@ -20,6 +20,7 @@
     ]
   },
   "mixins": [
+    "first-mod.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.12.1",
